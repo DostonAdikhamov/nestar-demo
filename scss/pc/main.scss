@@ -17,7 +17,7 @@
         align-items: center;
         border-top: 1px solid rgba(255, 255, 255, 0.07);
         &.transparent {
-          background-color: #181a20;
+          background-color: #181a209e;
         }
         .container {
           flex-direction: row;
@@ -95,7 +95,7 @@
     .container {
       position: relative;
       margin-top: 20px;
-      flex-direction: column; 
+      flex-direction: column;
       align-items: center;
       .search-box {
         position: relative;
@@ -231,7 +231,7 @@
             }
           }
         }
-        .fliter-type {
+        .filter-type {
           position: absolute;
           padding: 50px;
           width: 1094px;
@@ -250,7 +250,7 @@
           z-index: 1;
           &.on {
             visibility: visible;
-            transition: 0.2 ease-out;
+            transition: 0.2s ease-out;
             background: #fffdfd;
           }
           div {
@@ -406,7 +406,7 @@
             }
             .media-box {
               margin-top: 12px;
-              color: #929496;
+              color: #929495;
               svg {
                 font-size: 32px;
                 margin-right: 22px;
@@ -431,7 +431,7 @@
               text-transform: capitalize;
             }
             div {
-              padding: 20px 20px;
+              padding: 20px 30px;
               margin-top: 20px;
               width: 667px;
               height: 70px;
@@ -503,10 +503,10 @@
       .second {
         margin-top: 60px;
         height: 45px;
-        border-top: 1px solid #212329;
+        border-top: 1px solid #213329;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-end;
         span {
           color: #bebdbd;
