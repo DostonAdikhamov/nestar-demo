@@ -13,7 +13,7 @@ const TopPropertyCard = () => {
           backgroundImage: 'url("/img/banner/types/apartment.webp")',
         }}
       >
-        <div className="price">$420,000</div>
+        <div className="price">$220,000</div>
       </Box>
       <Box className="info">
         <strong className="title">Run Will Buildings</strong>
@@ -29,7 +29,7 @@ const TopPropertyCard = () => {
           </div>
           <div>
             <img src="/img/icons/expand.svg" alt="" />
-            <span>250 m²</span>
+            <span>230 m²</span>
           </div>
         </div>
         <Divider sx={{ mt: "15px", mb: "17px" }} />
@@ -39,11 +39,11 @@ const TopPropertyCard = () => {
             <IconButton color="default">
               <RemoveRedEyeIcon />
             </IconButton>
-            <Typography className="view-cnt">120</Typography>
+            <Typography className="view-cnt">150</Typography>
             <IconButton color="default">
-              <FavoriteIcon />
+              <FavoriteIcon style={{ color: "red" }}/>
             </IconButton>
-            <Typography className="view-ctn">200</Typography>
+            <Typography className="view-ctn">180</Typography>
           </div>
         </div>
       </Box>

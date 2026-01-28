@@ -13,7 +13,7 @@ const TrendPropertyCard = () => {
           backgroundImage: 'url("/img/banner/types/house.webp")',
         }}
       >
-        <div className="price">$420,000</div>
+        <div className="price">$330,000</div>
       </Box>
       <Box className="info">
         <strong className="title">Kingston Buildings</strong>
@@ -29,7 +29,7 @@ const TrendPropertyCard = () => {
           </div>
           <div>
             <img src="/img/icons/expand.svg" alt="" />
-            <span>250 m²</span>
+            <span>280 m²</span>
           </div>
         </div>
         <Divider sx={{ mt: "15px", mb: "17px" }} />
@@ -39,11 +39,11 @@ const TrendPropertyCard = () => {
             <IconButton color="default">
               <RemoveRedEyeIcon />
             </IconButton>
-            <Typography className="view-cnt">120</Typography>
+            <Typography className="view-cnt">130</Typography>
             <IconButton color="default">
-              <FavoriteIcon />
+              <FavoriteIcon style={{ color: "red" }}/>
             </IconButton>
-            <Typography className="view-ctn">200</Typography>
+            <Typography className="view-ctn">180</Typography>
           </div>
         </div>
       </Box>

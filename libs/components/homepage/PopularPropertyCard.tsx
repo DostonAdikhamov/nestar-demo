@@ -17,7 +17,7 @@ const PopularPropertyCard = () => {
           <img src="/img/icons/electricity.svg" alt="" />
           <span>top</span>
         </div>
-        <div className="price">$520,000</div>
+        <div className="price">$420,000</div>
       </Box>
       <Box className="info">
         <strong className="title">Busan City Hall Apartments</strong>
@@ -33,7 +33,7 @@ const PopularPropertyCard = () => {
           </div>
           <div>
             <img src="/img/icons/expand.svg" alt="" />
-            <span>220 m²</span>
+            <span>230 m²</span>
           </div>
         </div>
         <Divider sx={{ mt: "15px", mb: "17px" }} />
@@ -43,11 +43,11 @@ const PopularPropertyCard = () => {
             <IconButton color="default">
               <RemoveRedEyeIcon />
             </IconButton>
-            <Typography className="view-cnt">50</Typography>
+            <Typography className="view-cnt">150</Typography>
             <IconButton color="default">
               <FavoriteIcon style={{ color: "red" }} />
             </IconButton>
-            <Typography className="view-ctn">250</Typography>
+            <Typography className="view-ctn">280</Typography>
           </div>
         </div>
       </Box>
